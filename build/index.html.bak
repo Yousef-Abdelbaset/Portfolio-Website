@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" className="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!----------------- owl carousel ----------------->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <title>Document</title>
+</head>
+
+<body class="font-body">
+
+    <header class="h-auto max-w-full xl:h-screen">
+        <div class="navbar dark:bg-black container max-w-full px-4 lg:px-32 mx-auto dark:border-b-2 dark:border-white py-2 pt-4 flex justify-between flex-wrap">
+            <div class="text-2xl py-2 lg:pl-4">
+                <i class="fa-regular fa-gem text-3xl mx-2"></i>
+                <span class="font-bold capitalize">marvel</span>
+            </div>
+            <i class="fa-solid fa-bars text-3xl md:hidden block py-2 cursor-pointer" id="burger"></i>
+            <div class="hidden md:flex md:flex-grow md:w-auto w-full text-center" id="menu">
+                <ul class="pt-5 md:pt-2 md:flex md:flex-grow md:justify-center ">
+                    <li class="py-2 mx-4"><a class="hover:underline underline-offset-4 decoration-4 decoration-yellow-400" href="#">About</a></li>
+                    <li class="py-2 mx-4"><a class="hover:underline underline-offset-4 decoration-4 decoration-yellow-400" href="#">Projects</a></li>
+                    <li class="py-2 mx-4"><a class="hover:underline underline-offset-4 decoration-4 decoration-yellow-400" href="#">Resume</a></li>
+                    <li class="py-2 mx-4"><a class="hover:underline underline-offset-4 decoration-4 decoration-yellow-400" href="#">Contact</a></li>
+                </ul>
+                <div class="mt-3 lg:mr-4">
+                    <button class="w-8 h-8 rounded-full bg-black dark:border dark:border-white flex justify-center self-center items-center text-white"
+                        id="theme-toggle">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-20 flex mx-auto px-4 md:px-8 py-4 justify-center  md:flex-nowrap flex-wrap">
+            <div class="sm:w-full lg:w-1/2 px-2 pt-32">
+                <span class="px-4 py-2 text-textColor font-semibold text-sm capitalize dark:text-white">wellcome to my portfolio
+                    website!</span>
+                <h1 class="text-4xl py-4 font-semibold dark:text-white">Hey folks, I'm <span class="element text-yellow-400"></span> </h1>
+                <p class="mb-4 text-textColor text-lg tracking-wide dark:text-gray-200">Building a successful product is a challange. I'm
+                    highly energetic in user experience design,
+                    inerfaces and web development.
+                </p>
+                <div class="w-full ">
+                    <button
+                        class="w-full sm:w-auto py-3 font-semibold mx-auto text-textColor bg-gray-200 rounded-full my-4 px-8">
+                        <i class="fa-regular fa-file"></i>
+                        Download Resume
+                    </button>
+                    <button
+                        class="w-full sm:w-auto py-3 font-semibold mx-auto  bg-secondryColor text-white rounded-full px-8">
+                        Get a free quote
+                    </button>
+                </div>
+            </div>
+
+            <div class="md:w-1/2 md:mt-28 w-full flex justify-center">
+                <img class="lg:w-3/4 mt-24 sm:mt-0" src="img/app/image_header.svg">
+
+            </div>
+        </div>
+    </header>
+    <!------- End Header Section ------->
+    <!------- Start Project Section ------->
+    <div class="container mx-auto text-center pb-16">
+        <div class="max-w-4xl lg:max-w-3xl mt-12 px-2 mx-auto">
+            <h2 class="project-centent-title-h2 dark:text-white">
+                things i have designed for digital media agencies
+
+            </h2>
+        </div>
+        <div class="owl-carousel owl-theme owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+                <div class="owl-stage text-center">
+                    <div class="owl-item">
+                        <img src="img/project/project-image01.png" alt="project-1">
+                    </div>
+                    <div class="owl-item">
+                        <img src="img/project/project-image02.png" alt="project-2">
+                    </div>
+                    <div class="owl-item">
+                        <img src="img/project/project-image03.png" alt="project-3">
+                    </div>
+                    <div class="owl-item">
+                        <img src="img/project/project-image04.png" alt="project-4">
+                    </div>
+                    <div class="owl-item">
+                        <img src="img/project/project-image05.png" alt="project-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!------- End Project Section ------->
+    <!------- Start Resume Section ------->
+    <div class="container mx-auto px-1 sm:px-4 lg:px-4 xl:px-32 pb-20 ">
+        <div class="flex flex-wrap ">
+            <!--------------- left sec --------------->
+            <div class="lg:w-1/2 w-full">
+                <h2 class="capitalize font-bold text-4xl text-headingColor mb-16 dark:text-white">experience</h2>
+                <div class="timeline relative mb-4 lg:pr-28 ">
+                    <div class="timeline-yr">
+                        <span>2019</span>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="mb-2">
+                            <span class="timeline-content-title-primary dark:text-white">Project Manager</span>
+                            <span class="timeline-content-title-secondary">Best Studio</span>
+                        </h3>
+                        <p class="timeline-content-title-p">Proin ornare non purus ut
+                            rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc,
+                            a
+                            faucibus nunc.</p>
+                    </div>
+                </div>
+                <div class="timeline relative mb-10  lg:pr-28 ">
+                    <div class="timeline-yr">
+                        <span>2018</span>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="mb-2">
+                            <span class="timeline-content-title-primary dark:text-white">UX Designer</span>
+                            <span class="timeline-content-title-secondary">Digital Ace</span>
+                        </h3>
+                        <p class="timeline-content-title-p">Fusce rutrum augue id orci rhoncus molestie. Nunc auctor
+                            dignissim lacus vel iaculis.</p>
+                    </div>
+                </div>
+                <div class="timeline relative mb-10  lg:pr-28 ">
+                    <div class="timeline-yr">
+                        <span>2016</span>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="mb-2">
+                            <span class="timeline-content-title-primary dark:text-white">UI Freelancer</span>
+                            <span class="timeline-content-title-secondary">Digital Ace</span>
+                        </h3>
+                        <p class="timeline-content-title-p">Sed fringilla vitae enim sit amet cursus. Sed cursus dictum
+                            tortor quis pharetra. Pellentesque habitant morbi tristique
+                            senectus et netus et malesuada fames ac turpis egestas.</p>
+                    </div>
+                </div>
+                <div class="timeline-end relative mb-6  lg:pr-28">
+                    <div class="timeline-yr">
+                        <span>2014</span>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="mb-2">
+                            <span class="timeline-content-title-primary dark:text-white">Junior Designer</span>
+                            <span class="timeline-content-title-secondary">Crafted Co.</span>
+                        </h3>
+                        <p class="timeline-content-title-p">Cras scelerisque scelerisque condimentum. Nullam at volutpat
+                            mi. Nunc auctor ipsum eget magna consequat viverra.</p>
+                    </div>
+                </div>
+            </div>
+            <!--------------- right sec --------------->
+            <div class="lg:w-1/2 w-full">
+                <h2 class="capitalize font-bold text-4xl text-headingColor mb-16 dark:text-white">Educations</h2>
+                <div class="timeline relative mb-4 lg:pr-28 ">
+                    <div class="timeline-yr">
+                        <span>2017</span>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="mb-2">
+                            <span class="timeline-content-title-primary dark:text-white">Mobile Webb</span>
+                            <span class="timeline-content-title-secondary">Master Design
+                            </span>
+                        </h3>
+                        <p class="timeline-content-title-p">Please tell your friends about Tooplate website. That would
+                            be very helpful. We need your support.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline relative mb-8 lg:pr-28 ">
+                    <div class="timeline-yr">
+                        <span>2015</span>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="mb-2">
+                            <span class="timeline-content-title-primary dark:text-white">User Interfaces</span>
+                            <span class="timeline-content-title-secondary">Creative Agency</span>
+                        </h3>
+                        <p class="timeline-content-title-p">Tooplate is a great website to download HTML templates
+                            without any login or email.</p>
+                    </div>
+                </div>
+                <div class="timeline-end relative mb-4 lg:pr-28">
+                    <div class="timeline-yr">
+                        <span>2013</span>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="mb-2">
+                            <span class="timeline-content-title-primary dark:text-white">Artwork Design</span>
+                            <span class="timeline-content-title-secondary">New Art School
+                            </span>
+                        </h3>
+                        <p class="timeline-content-title-p">You can freely use Tooplate's templates for your business or
+                            personal sites. You cannot redistribute this template
+                            without a permission.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------- End Resume Section ------->
+
+    <!------- Start Content Section ------->
+    <div class="container mx-auto px-8 md:px-12 xl:px-36">
+        <div class="flex flex-wrap lg:flex-nowrap">
+                <div class="w-full lg:w-2/5 xl:w-1/2">
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="100%" height="300" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                href="https://123movies-to.org"></a><br>
+                            <a href="https://www.embedgooglemap.net">embed google maps in web page</a>
+                        </div>
+                    </div>
+                    <div class="bg-secondryColor text-white w-full mb-10 px-8 py-8 flex justify-between">
+                        <div>
+                            <h4 class="text-3xl font-semibold mb-2">Say hello</h4>
+                            <p>010 020 0960</p>
+                            <a href="#">Hello@company</a>
+                        </div>
+                        <div class="flex flex-col content-center items-center">
+                            <a class="mt-1" href="#"><i class="fab fa-dribbble text-lg"></i></a>
+                            <a class="mt-1" href="#"><i class="fa-brands fa-instagram text-lg"></i></a>
+                            <a class="mt-1" href="#"><i class="fa-brands fa-youtube text-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:ml-20 pb-12 w-full lg:w-3/5 mb-10">
+                    <h3 class="text-3xl sm:text-5xl  text-headingColor md:text-4xl font-semibold mb-8 dark:text-white">Interested to work together? <br> Let's talk</h3>
+                    <form>
+                        <div class="lg:flex grid lg:justify-between gap-x-10 mb-5 ">
+                                                    <input class="border-solid border border-gray-500 px-4 py-3 rounded-sm outline-none my-3 w-full lg:w-4/7 dark:hover:border-yellow-400 dark:bg-black" type="text" placeholder="Your Name">
+                                                    <input class="border-solid border border-gray-500 px-4 py-3 rounded-sm outline-none my-3 w-full lg:w-4/7 float-right dark:hover:border-yellow-400 dark:bg-black" type="email" name="" id=""
+                                                        placeholder="Email">
+                        </div>
+                        <textarea class="border-solid border-gray-500 border w-full max-h-44 px-4 py-3 mb-4 dark:hover:border-yellow-400 dark:bg-black" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        <button type="submit" class="btn lg:w-auto w-full font-semibold bg-yellow-400 px-8 py-3 rounded-full text-white float-right dark:text-black" >Send Button</button>
+                    </form>
+                </div>
+        </div>
+    </div>
+    
+    <!------- End Content Section ------->
+
+    <!----------------  ---------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.12.0/headroom.min.js"
+        integrity="sha512-9UsrKTYzS9smDm2E58MLs0ACtOki+UC4bBq4iK5wi7lJycwqcaiHxr1bdEsIVoK0l5STEzLUdYyDdFQ5OEjczw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!---------------- Owl carousel ---------------->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <!---------------- js ---------------->
+    <script src="js/main.js"></script>
+    <script src="../src/js/index.js"></script>
+
+</body>
+
+</html>

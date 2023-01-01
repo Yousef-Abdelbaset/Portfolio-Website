@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.owl-item > img {
+  @apply max-w-6xl inline-block !important;
+}
+
+/* ------- Start Resume Section ------ */
+
+.project-centent-title-h2 {
+  @apply text-3xl capitalize lg:text-4xl font-black tracking-normal text-center text-headingColor;
+}
+
+.timeline::before {
+  content: "";
+  background: #474747;
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  left: 38px;
+  top: 75px;
+}
+
+.timeline-yr {
+  @apply w-20 h-20  mr-8 lg:mr-0 bg-secondryColor rounded-full relative float-left;
+}
+
+.timeline-yr > span {
+  @apply absolute top-1/2 left-1/2 -translate-x-2/4 -translate-y-2/4 text-white font-semibold;
+}
+
+.timeline-content-title-primary {
+  @apply text-2xl md:text-3xl   font-bold text-headingColor mb-4  lg:ml-8  lg:inline;
+}
+.timeline-content-title-secondary {
+  @apply text-base font-bold text-secondryColor  lg:ml-3 block lg:inline;
+}
+.timeline-content-title-p {
+  @apply text-textColor tracking-wide text-lg font-light ml-24;
+}
+
+/* map-style */
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 300px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 300px;
+}
+  /* nav--top */
+ .headroom--pinned {
+    display: flex;  
+    position: fixed;
+    background-color: #fff;
+    max-width: 100%;
+    z-index: 999;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+
+
+} 
+  /* Dark mode */
+
+.dark{
+  background-color: black;
+  --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
